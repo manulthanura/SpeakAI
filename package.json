@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "axios": "^1.11.0",
+    "lucide-react": "^0.543.0",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/dom-speech-recognition": "^0.0.6",
+    "@vitejs/plugin-react": "^5.0.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "tailwindcss init -p"
+  }
+}
